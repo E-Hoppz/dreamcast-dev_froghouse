@@ -1,0 +1,16 @@
+# Build Artifacts
+*.o
+*.d
+*.elf
+*.bin
+*.cdi
+
+# KallistiOS Specific
+romdisk.*
+
+# Asset Vault / Heavy Binaries
+/assets/
+*.kmg
+*.wav
+*.adx
+*.pvr
