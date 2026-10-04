@@ -4,3 +4,15 @@
 
 # Ignore heavy splash screens and UI assets
 ENGINES/WORLD_CLOCK/TIMEPIECE/MACOS/resources/
+
+# System and Engine Assets
+.DS_Store
+*.wad
+*.dll
+*.dylib
+*.so
+*.bmp
+*.tga
+*.vdf
+*.icns
+*.ico
