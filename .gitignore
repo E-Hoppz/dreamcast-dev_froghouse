@@ -1,0 +1,6 @@
+# Ignore compiled Dreamcast images
+*.cdi
+*.gdi
+
+# Ignore heavy splash screens and UI assets
+ENGINES/WORLD_CLOCK/TIMEPIECE/MACOS/resources/
