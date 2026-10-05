@@ -1,0 +1,4 @@
+#ifndef HOST_COMPAT_DC_SOUND_SFXMGR_H
+#define HOST_COMPAT_DC_SOUND_SFXMGR_H
+// Empty shim
+#endif
