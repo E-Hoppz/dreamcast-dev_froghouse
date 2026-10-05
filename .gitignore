@@ -1,16 +1,67 @@
-# Build Artifacts
+================================================================
+FROGHOUSE: Master .gitignore
+Project: WORLD_CLOCK and ClockSrc (Xash3D)
+Target: Sega Dreamcast (KOS 2.2.2)
+================================================================
+--- [ SECTION 1: OS & IDE METADATA JUNK ] ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+--- [ SECTION 2: COMPILER & BUILD ARTIFACTS ] ---
 *.o
 *.d
+*.a
 *.elf
 *.bin
+*.elf.bin
+*.exe
+*.so
+*.dll
+*.dylib
+*.lib
+*.pdb
+*.ilk
+.exp
+build/
+.waf-
+lock_engine
+--- [ SECTION 3: DREAMCAST DISC IMAGES ] ---
 *.cdi
-
-# KallistiOS Specific
-romdisk.*
-
-# Asset Vault / Heavy Binaries
+*.iso
+*.gdi
+.raw
+romdisk.
+romdisk/
+--- [ SECTION 4: ENGINE LOGS & RUNTIME CACHES ] ---
+*.log
+*.hpk
+*.sav
+*.dem
+*config.cfg
+pstore.bin
+--- [ SECTION 5: HEAVY ASSET VAULT (GOOGLE DRIVE ONLY) ] ---
 /assets/
+/repack/
+*repack/
+repack/
+*.wad
+*.bsp
+*.mdl
+*.clock
 *.kmg
-*.wav
-*.adx
 *.pvr
+*.wav
+*.mp3
+*.ogg
+*.adx
