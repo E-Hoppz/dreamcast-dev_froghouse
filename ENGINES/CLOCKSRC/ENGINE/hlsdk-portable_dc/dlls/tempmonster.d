@@ -1,0 +1,1 @@
+tempmonster.o: tempmonster.cpp
