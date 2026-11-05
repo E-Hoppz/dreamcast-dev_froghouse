@@ -1,0 +1,16 @@
+# Build artifacts
+*.o
+*.a
+*.elf
+*.bin
+1ST_READ.BIN
+*.iso
+*.cdi
+
+# Python temp fix scripts
+fix*.py
+
+# OS / Editor clutter
+.DS_Store
+Thumbs.db
+.vscode/

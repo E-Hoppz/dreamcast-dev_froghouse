@@ -67,6 +67,7 @@ GFX_OBJS  = src/frog_draw.o \
 
 # Combine static library components
 OBJS = $(CORE_OBJS) $(SYS_OBJS) $(MATH_OBJS) $(GFX_OBJS)
+OBJS += src/frog_entity.o src/frog_asset.o
 
 KOS_CFLAGS += -I./include -O3 -flto -ffast-math -mfsrra -mfsca -g
 

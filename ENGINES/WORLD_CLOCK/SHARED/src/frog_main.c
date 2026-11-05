@@ -104,7 +104,7 @@ int main(int argc, char **argv) {
         frog_cam_apply(&main_cam);
         
         // Custom sovereign opaque models and grid drawing go here
-        pvr_list_end();
+        pvr_list_finish();
 
         // ---------------- TRANSLUCENT SUBMISSION LIST ----------------
         pvr_list_begin(PVR_LIST_TR_POLY);
@@ -118,7 +118,7 @@ int main(int argc, char **argv) {
         sprintf(debug_buf, "WORLD CLOCK CLK: %u", (unsigned int)wc.audio.monotonic_samples);
         frog_draw_text(60.0f, 40.0f, debug_buf);
         
-        pvr_list_end();
+        pvr_list_finish();
 
         // Complete the PowerVR polygon render phase
         pvr_scene_finish();
